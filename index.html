@@ -2,12 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Alpine ts boilerplate</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div x-data="counter">
+      <h1 x-text="$store.text"></h1>
+      <button @click="onClickButton()">button</button>
+      <span x-text="cnt"></span>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

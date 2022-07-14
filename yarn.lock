@@ -101,6 +101,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/alpinejs@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "@types/alpinejs@npm:3.7.0"
+  dependencies:
+    "@vue/reactivity": ^3.2.26
+  checksum: 6e13b5f00345fbf450d954a4404cbdfc277aa0148e042673c9f6cc8fef5e50869af09ff03dfcbe8690d2685f486ef4bb83d25fb972d9517bd8a1bc2be756f7ab
+  languageName: node
+  linkType: hard
+
 "@types/chai-subset@npm:^1.3.3":
   version: 1.3.3
   resolution: "@types/chai-subset@npm:1.3.3"
@@ -248,6 +257,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/reactivity@npm:^3.2.26":
+  version: 3.2.37
+  resolution: "@vue/reactivity@npm:3.2.37"
+  dependencies:
+    "@vue/shared": 3.2.37
+  checksum: 94e353f8b8a9301cae15c9366f2fec6a163efb7293e9fe5d1da3ed647f1859139b7b321451db56fb5e3141192c0f0755f74ca9c4bcd30ec44372e45def61d69f
+  languageName: node
+  linkType: hard
+
+"@vue/reactivity@npm:~3.1.1":
+  version: 3.1.5
+  resolution: "@vue/reactivity@npm:3.1.5"
+  dependencies:
+    "@vue/shared": 3.1.5
+  checksum: b7dfcaa30aacd658502ce9373d4343d3607486796fbaae28d4ac4ab955cec766c8c6a34cb422965b21154b6319e467c54259cd6da2d9b2687501cd9e36f4197c
+  languageName: node
+  linkType: hard
+
+"@vue/shared@npm:3.1.5":
+  version: 3.1.5
+  resolution: "@vue/shared@npm:3.1.5"
+  checksum: a34b942e1aeed5d2b0fe887d0804061d2e799ef9a0d641aaae368c6fa9e2bf311e415f02883f26963bd35d90cac165433cfe74360f7ee88304fccaa144422d83
+  languageName: node
+  linkType: hard
+
+"@vue/shared@npm:3.2.37":
+  version: 3.2.37
+  resolution: "@vue/shared@npm:3.2.37"
+  checksum: 999ab8baeb13de190d07536e7dd0e74ab9354a864d8d903850a2127ae1a2aa2713a9edc0d957620ebf91165d6603d0cd2b0e8ee0db6cbaf8d57a6a0f912af810
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -319,14 +360,25 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "alpine-ts-boilerplate@workspace:."
   dependencies:
+    "@types/alpinejs": ^3.7.0
     "@typescript-eslint/eslint-plugin": latest
     "@typescript-eslint/parser": latest
+    alpinejs: ^3.10.2
     eslint: ^8.19.0
     typescript: ^4.6.4
     vite: ^3.0.0
     vitest: ^0.18.0
   languageName: unknown
   linkType: soft
+
+"alpinejs@npm:^3.10.2":
+  version: 3.10.2
+  resolution: "alpinejs@npm:3.10.2"
+  dependencies:
+    "@vue/reactivity": ~3.1.1
+  checksum: 100bca9107f041e679e9a84fde8955b14a3fd0713e19e80ce3437e34f66e3c9fea932f6a5df5032328e28510400e22bed68767b89cab082c0ee720cf89620d47
+  languageName: node
+  linkType: hard
 
 "ansi-regex@npm:^5.0.1":
   version: 5.0.1
