@@ -1,4 +1,3 @@
-// import './style.css'
 import Alpine from 'alpinejs'
 import { themeClass, defaultStyle } from './style.css'
 
