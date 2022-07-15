@@ -6,7 +6,7 @@
     <script type="module" src="./router.ts" defer></script>
     <title>Alpine ts boilerplate</title>
   </head>
-  <body>
+  <body x-data :class="$store.theme">
     <div id="app"></div>
     <script type="module" src="./main.ts"></script>
   </body>
