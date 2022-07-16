@@ -1,15 +1,11 @@
-// import './style.css'
 import Alpine from 'alpinejs'
+import { themeClass, defaultStyle } from './style.css'
 
 window.Alpine = Alpine
 
-Alpine.store('text', 'Hello World')
+console.log(themeClass)
 
-Alpine.data('counter', () => ({
-  cnt: 0,
-  onClickButton () {
-    this.cnt++
-  }
-}))
+Alpine.store('theme', themeClass)
+Alpine.store('defaultStyle', defaultStyle)
 
 Alpine.start()
